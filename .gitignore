@@ -1,0 +1,24 @@
+# Arduino / ESP32
+*.bin
+*.elf
+*.hex
+/build
+/.pio
+/.vs
+/.vscode
+*.log
+
+# macOS
+.DS_Store
+
+# Temp
+*.tmp
+*.bak
+*.swp
+
+# Keys and secrets (ensure these are not committed)
+config.h
+
+# Node/Python envs (if used)
+node_modules/
+venv/
